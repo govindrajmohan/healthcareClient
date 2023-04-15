@@ -1,0 +1,139 @@
+.main-body{
+  background-color: #010538;
+  /* width: 100vh; */
+  min-height: 100vh;
+  color: #e2e2e2;
+  
+  /* height: auto; */
+}
+
+
+.main-header{
+  background-color: rgb(255, 201, 52)!important;
+  color: #fff;
+}
+
+.components{
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.current-user{
+  background-color: #010538;
+  border-radius: 3px;
+}
+.current-user a{
+  color: #e2e2e2!important;
+}
+
+.login-signup-btn{
+  padding: 5px 20px;
+  border-radius: 3px;
+  border: none;
+  color:#010538;
+  background-color: rgb(255, 201, 52);
+  transition: .2s ease-in-out;
+}
+
+.login-signup-btn:hover{
+background-color: #e2e2e2;
+
+color: #010538;
+}
+.login-form{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #e2e2e2;
+  padding: 20px;
+  border-radius: 3px;
+}
+
+.navbar-brand{
+  font-weight: 500;
+}
+
+.dashboard-row{
+  display: flex;
+  justify-content: space-between;
+margin: 50px 0px;
+
+}
+
+.dashboard-col{
+  height: 40vh;
+  overflow: auto;
+padding: 15px;
+border: 1px solid #e2e2e2;
+border-radius: 10px 0px 0px 10px;
+width: 48%;
+}
+.dashboard-col h4{
+  font-size: 1.1rem;
+}
+.dashboard-col p{
+  font-size: 14px;
+}
+.dashboard-col h4{
+  background-color: rgb(255, 201, 52);
+  color: #010538;
+  display: inline-block;
+  padding: 5px 20px;
+  margin: 10px 0px;
+  border-radius: 20px;
+
+}
+
+/* scroll bar css */
+/* 
+width */
+::-webkit-scrollbar {
+  width: 16px;
+  border: 1px solid rgb(255, 201, 52);
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background:rgb(255, 201, 52);
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:#010538;
+  border: 2px solid rgb(255, 201, 52);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:#010538;
+}
+
+.dashboard-col::-webkit-scrollbar {
+  width: 15px;
+  /* border: 1px solid rgb(255, 201, 52); */
+}
+
+/* Track */
+.dashboard-col::-webkit-scrollbar-track {
+  /* background:rgb(255, 201, 52); */
+  /* box-shadow: inset 0 0 5px grey;  */
+  border-radius: 0px;
+
+}
+
+/* Handle */
+.dashboard-col::-webkit-scrollbar-thumb {
+  /* background:#010538; */
+  /* border: 2px solid rgb(255, 201, 52); */
+  border-radius: 0px;
+}
+
+/* Handle on hover */
+.dashboard-col::-webkit-scrollbar-thumb:hover {
+  background:#010538;
+}
